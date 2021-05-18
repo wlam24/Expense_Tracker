@@ -1,0 +1,66 @@
+input, div {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+}
+
+.title-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h3 {
+  color: green;
+  font-size: 28px;
+}
+
+form {
+  margin: 0 auto;
+}
+
+input {
+  padding: 6px 0px 6px 4px;
+}
+
+table {
+  border: 1px solid #222;
+  margin-top: 50px;
+  width: 100%;
+}
+
+tbody td {
+  text-align: center;
+  padding: 5px;
+}
+
+tbody tr:nth-of-type(even), thead {
+  background-color: aquamarine;
+}
+
+.exp-container tr td:nth-of-type(2) {
+  min-width: 55px;
+}
+
+.exp-submit {
+  background-color: green;
+  color: white;
+  border: solid 2px lightgreen;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  top: 20px;
+}

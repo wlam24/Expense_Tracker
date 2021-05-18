@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="style-extra.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+  <div class="title-container">
+  <h1>Expense Tracker</h1>
+  <h3>Add A New Item</h3>
+</div>
+<form>
+  <div class="name-container">
+  <label for="name">Name:</label>
+  <input required type="text" name="name" id="name" placeholder="Where was the expense made?">
+  </div>
+<!-- <div class="date-amount"> -->
+<div class="date-container">
+<label for="date">Date:</label>
+<input required type="date" name="date" id="date" placeholder="mm/dd/yyyy">
+</div>
+<div class="amount-container">
+<label for="amount">Amount:</label>
+<input required type="text" name="amount" id="amount" value="$">
+<div class="submit-container">
+<button class="exp-submit" type="submit">Add Expense</button>
+</div>
+</div>
+<!-- </div> -->
+</form>
+
+<table>
+  <thead>
+<tr>
+  <th>Name</th>
+  <th>Date</th>
+  <th>Amount</th>
+  <th><button class="delete-button" type="button">Remove</button></th>
+</tr>
+</thead>
+<tbody class="exp-container">
+<tr class="exp-tr">
+  <td class="table-bottom">Jack Black</td>
+  <td class="table-bottom">5-23-21</td>
+  <td class="table-bottom">$200</td>
+  <td class="table-bottom"><input type="checkbox"></td>
+</tr>
+<tr >
+  <td class="table-bottom">Penguin</td>
+  <td class="table-bottom">5-26-21</td>
+  <td class="table-bottom">$204</td>
+  <td class="table-bottom"><input type="checkbox"></td>
+</tr>
+</tbody>
+</table>
+</div>
+  <script rel="javascript" src="script.js"></script>
+</body>
+</html>
